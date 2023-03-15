@@ -4,11 +4,11 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
 
 
-	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="path/to/fontawesome.min.css">
 	<link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
@@ -21,20 +21,26 @@
 		<header>
 			<!-- <img src="img/home-header.jpg" alt="Picture of a bar"> -->
 			<div>
-				<h1>BLOOMTECH BAR AND GRILL</h1>
+				<h1>
+					<a href="index.html">
+						BLOOMTECH BAR AND GRILL
+					</a>
+				</h1>
+
 
 				<!-- nav -->
 				<nav>
-				<a href="#">Menu</a>
-				<a href="#">Reservations</a>
-				<a href="#">Special Offers</a>
-				<a href="#">Contact</a>
+					<div class="links">
+						<a href="menu.html">Menu</a>
+						<a href="#">Reservations</a>
+						<a href="#">Special Offers</a>
+						<a href="#">Contact</a>
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-instagram"></i>
+					</div>
 				</nav>
-				<div class="logo">
-					<i class="fab fa-facebook"></i>
-					<i class="fab fa-twitter"></i>
-					<i class="fab fa-instagram"></i> 
-				</div>  
+
 			</div>
 		</header>
 
@@ -43,7 +49,8 @@
 			<div class="pic">
 				<h2>OUR FOOD</h2>
 
-				<img src="img/food-avocadotoast.jpg" alt="Picture of bread with avocadotoast tomatoes and cheese on top">
+				<img src="img/food-avocadotoast.jpg"
+					alt="Picture of bread with avocadotoast tomatoes and cheese on top">
 
 				<img src="img/food-burger.jpg" alt="Picture of burger with a drink and a side dish">
 
@@ -141,23 +148,22 @@
 				<div class="low">
 					<!-- email signup -->
 					<h4>Join our mailing list!</h4>
-					<form>
-						<input type="email" placeholder="Email Address">
-				   		<button>Sign Up</button>
-			    	</form>
-				</div>	
+					<!-- <form> -->
+					<input type="email" placeholder="Email Address">
+					<button>Sign Up</button>
+					<!-- </form> -->
+				</div>
 				<!-- nav -->
 				<div class="bottom">
 					<nav>
-						<a href="#">Menu</a>
+						<a href="menu.html">Menu</a>
 						<a href="#">Reservations</a>
 						<a href="#">Special Offers</a>
 						<a href="#">Contact</a>
 					</nav>
+					<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
 				</div>
 			</div>
-			<!-- copyright -->
-			<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
 		</footer>
 	</div>
 </body>
